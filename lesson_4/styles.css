@@ -1,0 +1,94 @@
+body {
+    background: url(dz.gif) no-repeat center / cover;
+    text-align: center;
+}
+
+a.underline {
+    font-size: 6vw;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 196, 0);
+    position: relative;
+    transition: color 0.8s, text-shadow 0.8;
+}
+
+a.underline:after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    background: rgb(255, 0, 0);
+    height: 20%;
+    width: 0%;
+    z-index: -1;
+    transition: width 0.8s, opacity 0.8s, box-shadow 0.8s;
+    border-radius: 100px;
+    opacity: 0;
+    box-shadow: 0 0 16px rgba(42, 157, 143, 0);
+}
+
+a.underline:hover {
+    color: yellow;
+    text-shadow: 0 0 16px rgba(142, 57, 123,0.64);
+}
+
+a.underline:hover:after {
+    width: 100%;
+    opacity: 1;
+    box-shadow: 0 0 16px rgba(188, 20, 2, 0.88);
+}
+
+a.underline_a:after {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+a.underline_a:hover:after {}
+
+a.underline_b:after {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+a.underline_b:hover:after {}
+
+a.underline_c:after {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+
+/* .header {
+    background: url(dz.gif) no-repeat;
+    height: 50vh;
+    width: 30vw;
+    text-align: center;
+    margin: 0 auto;
+}
+
+div h1 {
+    color: rgb(0, 255, 89);
+    text-align: center;
+}
+
+.one {
+    width: 750px;
+    height: 250px;
+    margin: 0 auto;
+    background: url(dz.gif) no-repeat center / cover;
+}
+
+.two {
+    width: 750px;
+    height: 250px;
+    background-color: rgba(255, 255, 0, 0.4);
+}
+
+.three {
+    width: 375px;
+    height: 375px;
+    margin: auto auto;
+    background: url(wolk.jpg) no-repeat center / cover;
+}  */

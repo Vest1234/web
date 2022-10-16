@@ -1,0 +1,4 @@
+*.md
+venv/
+*.db
+.DS_Store
