@@ -1,0 +1,61 @@
+body {
+    background-color: red;
+}
+
+thead {
+    font-size: 20pt;
+}
+ 
+tbody {
+    color: rgb(233, 199, 2);
+}
+
+tfoot{
+    color: rgb(88, 88, 115);
+    font-weight: bold;
+}
+.Айфон .phone::before {
+    content: "🍎";
+}
+.Андроид .phone::before{
+    content: "🤩";
+}
+table .prise::before{
+    content: "💵";
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+th{
+ border-top: 5px solid black;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.one{
+    height: 100px;
+    wight: 100px;
+    background-color: green
+    top: 75vw;
+}.one{
+    height: 100px;
+    wight: 100px;
+    background-color: green;
+    top: auto;s
+}
+.two{
+    height: 100px;
+    wight: 100px;
+    background-color: gold;
+}
+div {
+    display: inline
+    position: absolute;
+}
+
+
+
