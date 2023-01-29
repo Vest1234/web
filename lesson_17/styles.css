@@ -1,5 +1,5 @@
 header, footer, .testimonial {
-    background-color: #7e0f0f;
+    background-color: #034470;
     color: white;
 }
 
@@ -34,4 +34,27 @@ header {
 .testimonial-tewt {
     font-size: 2.5rem;
     padding: 10%;
+}
+
+.cards {
+    padding: 0 17%;
+}
+
+.faq {
+    padding: 5% 0;
+}
+
+.accordion {
+    padding: 0 5%;
+}
+
+.accordion_11{
+    background-color: #034470;
+    padding: 7% 0;
+}
+
+footer {
+    font-size: 28px;
+    padding: 3% 0;
+    text-align: center;
 }
