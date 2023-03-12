@@ -1,0 +1,188 @@
+*{
+    padding-top: 0;
+    margin: 0;
+}
+body {
+    background-color: #fff;
+}
+.glavnoe {
+    font-family: Russo One;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center ;
+    padding-top: 10px;
+    
+
+}
+
+.room {
+    position: absolute;
+    width: 381px;
+    height: 300px;
+    padding-top: 0;
+    border-bottom-right-radius:50px;
+
+
+    background: #E5E0FE;
+}
+
+.nizroom {  
+    position: absolute;
+    width: 270px;
+    height: 250px;
+    left: 80%;
+    top: 406px;
+    background-color: #E5E0FE;
+    border-top-left-radius:50px;
+}
+
+.fff {
+    font-family: Jost;
+    font-size: 37px;
+    line-height: 70px;
+    text-align: center ;
+    padding-top: 10px;
+    
+}
+
+.xuslo {
+    position: absolute;
+width: 572px;
+height: 58px;
+left: 548px;
+top: 50px;
+
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 33px;
+line-height: 58px;
+
+color: #000000;
+
+}
+
+.zelen {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 323px;
+    height: 411px;
+    left: 29px;
+    top: 229px;
+
+    background: #CFFE67;
+    border: 10px solid #000000;
+    border-radius: 40px;
+}
+
+.yyy {
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    top: 103px;
+    left: 8px;
+}
+
+.ooo {
+    font-family: Russo One;
+    font-size: 100px;
+    line-height: 70px;
+    text-align: center ;
+    padding-top: 20px;
+    padding: 20px;
+}
+
+.non {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+
+    position: absolute;
+    width: 270px;
+    height: 100px;
+    left: 879px;
+    top: 140px;
+    border-color: transparent;
+
+    background: #CFFE67;
+    border-radius: 40px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 65px;
+    cursor: pointer;
+}
+
+.tot {
+    position: absolute;
+width: 270px;
+height: 120px;
+left: 947px;
+top: 500px;
+border-color: transparent;
+background: #CFFE67;
+border-radius: 50px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+cursor: pointer;
+}
+
+.ggg {
+position: absolute;
+width: 630px;
+height: 58px;
+left: 548px;
+top: 254px;
+
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 33px;
+line-height: 58px;
+}
+
+.eee {
+position: absolute;
+left: 548px;
+top: 401px;
+
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 72px;
+
+color: #000000;
+}
+
+.iii {
+position: absolute;
+left: 548px;
+top: 496px;
+
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 72px;
+
+color: #000000;
+}
+
+.bbb {
+position: absolute;
+width: 314px;
+height: 100px;
+left: 548px;
+top: 140px;
+border-radius: 15px;
+font-size: 40px;
+border: 7px black solid;
+}
