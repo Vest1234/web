@@ -14,21 +14,59 @@
 // function myFunction() {
 //     document.querySelector(".myText").value = "Johnny";
 // }
-let q = Math.floor(Math.random() * 100 + 1)
+let u = document.querySelector(".eee1")
+let life = 10
+let recod = document.querySelector(".iii1")
+let q = Math.floor(Math.random() * 100 + 1)  // стартовое значение
+
 function again() {
-    let q = Math.floor(Math.random() * 100 + 1)
-
+    life = 10
+    u.innerHTML = life
+    q = Math.floor(Math.random() * 100 + 1)  // новое число
+    document.querySelector(".ooo").innerHTML = "?" 
+    
     console.log(q)
-
 }
 
 function uuu() {
     let w = document.querySelector(".bbb").value
-    if (q == w) {
-        console.log(`ok`)
-    } else {
+    
+    if (w == q){
+        document.querySelector(".more_less").innerHTML = "тоже" 
+        document.querySelector(".ooo").innerHTML = q
+        check_record()
+    } else if (w < q) {
+        document.querySelector(".more_less").innerHTML = "больше" 
+        life--
+        u.innerHTML = life
         console.log(`not`)
+        game_over()
+    } else {
+        document.querySelector(".more_less").innerHTML = "меньше" 
+        life--
+        u.innerHTML = life
+        console.log(`not`)
+        game_over()
     }
 }
 again()
+
+
+function game_over(){
+    if(life <= 0){
+
+        alert("Конец")
+    }
+}
+game_over()
+
+function check_record() {
+    if (recod.innerHTML == "-"){
+        recod.innerHTML = 10 - life
+    }else {
+        if (recod.innerHTML > 10 - life) {
+            recod.innerHTML = 10 - life
+        }
+    }
+}
 
