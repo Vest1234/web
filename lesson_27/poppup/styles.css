@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(121, 189, 166);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.e {
+    padding: 40px 80px;
+    margin:  0 35px;
+    background-color: #222;
+    color: #fff;
+    border-radius:  50px;
+    border: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.e:first-child:hover {
+    background: linear-gradient(90deg, 
+    #c86e4c,
+    #efb6bf,
+    #fe3c71,
+    #2bd566,
+    #0081fe );
+    background-size: 400%;
+}
+
+.e:last-child:hover {
+    background: linear-gradient(90deg,
+    #8d6ea3,	
+    #d79abd,	
+    #ebd38b,	
+    #e5a185,	
+    #8ec1b1 );
+    background-size: 400%;
+}
+
+.e:hover {
+    z-index: 1;
+    animation: glow 8s linear infinite;
+}
+
+.modal {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    padding: 50px;
+background: rgba( 122, 122, 121, 0.5 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6px );
+-webkit-backdrop-filter: blur( 6px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.t {
+    position: absolute;
+    top: 11px;
+    right: 20px;
+    border: none;
+    background-color: transparent;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.t:hover {
+    color: rgb(141, 6, 6);
+}
+
+.hidden {
+    display: none;
+}
+
+@keyframes glow {
+    0% {
+        background-position: 0;
+    }
+
+    100% {
+        background-position: 400%;
+    }
+}
+
