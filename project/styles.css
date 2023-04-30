@@ -1,0 +1,112 @@
+
+.header_box {
+    display: block;
+    position: fixed;
+    width: 1370px;
+    height: 88px;
+    top: 0;
+    left: 0;
+    background: #1F572B;
+}
+
+.btn_glav {
+    /* Футбол проще */
+position: absolute;
+width: 278px;
+height: 112px;
+left: 89px;
+top: 10px;
+font-family: 'Rubik Mono One' , cursive;
+font-weight: 400;
+font-size: 30px;
+line-height: 32px;
+color: #FFFFFF;
+border: 1px solid #000000;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+background-color: transparent;
+border: none;
+text-decoration-line: none;
+}
+
+.btn_one {
+    /* история */
+position: absolute;
+width: 204px;
+height: 62px;
+left: 605px;
+top: 13px;
+font-family: 'Rubik Mono One' , cursive;
+font-weight: 400;
+font-size: 30px;
+line-height: 62px;
+color: #FFFFFF;
+background-color: transparent;
+border: none;
+text-decoration-line: none;
+}
+
+.btn_two {
+    /* бренды */
+position: absolute;
+width: 304px;
+height: 64px;
+left: 835px;
+top: 13px;
+font-family: 'Rubik Mono One' , cursive;
+font-weight: 400;
+font-size: 30px;
+line-height: 62px;
+color: #FFFFFF;
+background-color: transparent;
+border: none;
+text-decoration-line: none;
+}
+
+.btn_three {
+    /* правила */
+position: absolute;
+width: 312px;
+height: 64px;
+left: 1046px;
+top: 13px;
+font-family: 'Rubik Mono One';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 62px;
+color: #FFFFFF;
+background-color: transparent;
+border: none;
+text-decoration-line: none;
+}
+
+.active {
+    text-decoration-line: underline;
+}
+
+.header_img {
+position: absolute;
+width: 64px;
+height: 64px;
+left: 256px;
+top: 13px;
+
+background: url(image.png);
+}
+
+.health_box{
+    width: 100px;
+    height: 10px;
+    background-color: green;
+}
+
+.health_title {
+    font-family:'Roboto', sans-serif;
+    position: absolute;
+    font-size: 35px;
+    text-align: center;
+    top: 80px;
+}
+
+
+/* health_box не видит header_box */

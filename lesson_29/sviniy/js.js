@@ -61,8 +61,7 @@ btnRoll.addEventListener("click", () => {
 
 btnHold.addEventListener("click", () => {
     totalScores[activePlayer] += currentScore;
-    document.getElementById(`score-${activePlayer}`).innerHTML = 
-    totalScores[activePlayer];
+    document.getElementById(`score-${activePlayer}`).innerHTML = totalScores[activePlayer];
     switchPlayer();
 })
 
