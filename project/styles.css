@@ -94,16 +94,21 @@ background: url(image.png);
 }
 
 .all {
-    display: block;
-    margin-left: 139px;
-    margin-top: 100px;
+    margin: 0 140px;
     font-family: 'Montserrat', sans-serif;
 }
 
-.starter_picture {
+.starter_picture1 {
     width: 50%;
     margin: 0 50%;
     transform: translateX(-50%);
+    margin-top: 100px;
 }
 
-/* health_box не видит header_box */
+.starter_picture2 {
+    width: 65%;
+    margin: 0 50%;
+    transform: translateX(-50%);
+    margin-top: 100px;
+}
+
