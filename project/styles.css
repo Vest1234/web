@@ -149,3 +149,13 @@ footer>span {
     padding: 3px;
     border-radius: 20%;
 }
+
+.hidden{
+    display: none;
+}
+
+h1 {
+    background: linear-gradient(to right , bisque, #ffd1dc );
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #98a39c;;
+}
