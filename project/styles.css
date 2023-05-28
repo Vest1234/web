@@ -154,8 +154,50 @@ footer>span {
     display: none;
 }
 
-h1 {
-    background: linear-gradient(to right , bisque, #ffd1dc );
+.h {
+    background: linear-gradient(to right , rgb(183, 237, 201), #43a784 );
     border-radius: 5px;
-    box-shadow: 3px 3px 5px #98a39c;;
+    box-shadow: 3px 3px 5px #98a39c;
+    cursor: pointer;
+}
+
+.legend {
+    margin: 3%;
+    background-color: #e8cb56;
+    padding-top: 0.8%;
+    border-radius: 10%;
+    border: dashed 2mm red;
+    box-shadow: 3px 3px 5px #98a39c;
+}
+
+.legend-name {
+    background-color: #e0e0e0;
+    width: fit-content;
+    padding: 5px;
+    font-size: 50px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.kard {
+    background-color: #e0e0e0;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 10%;
+    border: solid 1mm rgb(0, 0, 0);
+}
+
+.kard>img {
+    width: 60%;
+    border-radius: 10%;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
